@@ -4,11 +4,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link style sheet -->
     <link rel="stylesheet" href="style.css">
     <title>welcome</title>
 </head>
 <body>
-    <h1>Second repo</h1>
-    <p>hello to my second repo Hello there</p>
+    <!-- --------start-header-section----------- -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="Logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX developer</p>
+                <h1>I'm <span>Mohamed</span><br> Mahmoud from Egypt</h1>
+            </div>
+        </div>
+    </header>
+    <!-- --------end-header-section----------- -->
+    <!-- -----------start-about-section--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="userPhoto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, esse. Commodi ad, architecto sapiente natus molestiae dolore odio, voluptate est id, nihil nulla nesciunt. Eum sint ipsa odio debitis recusandae?</p>
+                    
+                    <div class="tab-title">
+                        <div class="tab-links active-link" onclick="openTab('skills')">Skills</div>
+                        <div class="tab-links" onclick="openTab('experience')">Experience</div>
+                        <div class="tab-links" onclick="openTab('education')">Education</div>
+                    </div>
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design web apps interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div id="experience" class="tab-contents">
+                        <ul>
+                            <li><span>2022 - current</span><br>UI/UX Design Trannign at ET Institute.</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internghip at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Traning at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                            <li><span>2014</span><br>BBA from ISM Bagalore.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------end-about-section--------- -->
+    <!-- -----------start-services-section--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab corporis cupiditate eligendi, voluptates impedit tenetur quos laborum vel ipsam atque voluptate illum consectetur quo soluta, magni, sed dolore. Soluta!</p>
+                    <a href="#services">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab corporis cupiditate eligendi, voluptates impedit tenetur quos laborum vel ipsam atque voluptate illum consectetur quo soluta, magni, sed dolore. Soluta!</p>
+                    <a href="#services">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab corporis cupiditate eligendi, voluptates impedit tenetur quos laborum vel ipsam atque voluptate illum consectetur quo soluta, magni, sed dolore. Soluta!</p>
+                    <a href="#services">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------end-services-section--------- -->
+    <!-- -----------start-portfolio-section--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talent people around the world Download it from App store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work2">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talent people around the world Download it from App store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work3">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talent people around the world Download it from App store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">See More....</div>
+        </div>
+    </div>
+    <!-- -----------end-portfolio-section--------- -->
+    <!-- -----------start-contact-section--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="#">
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>mohamed-mahoud@email.com</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>01553130411</p>
+                        </div>
+                    </a>
+                    <div class="social-apps">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Made by <i class="fa-solid fa-heart"></i> by Mohamed Mahmoud.</div>
+    </div>
+    <!-- -----------end-portfolio-section--------- -->
+
+    <script src="main.js"></script>
 </body>
 </html>
